@@ -1,22 +1,26 @@
+
 # Título: Arduino Avanzado
 
-Planificación de la actividad. Como sabes es una propuesta se puede cambiar.
-En la actividad se le plantearan varios proyectos que deberán de realizar y terminarlos para la presentación en la ultima sesión.
+# Requisitos
 
-Sesiones presenciales:
+* El profesorado asistente deberá de tener manejarse con soltura en la programación de Arduino (al nivel del curso anterior)
+* Dado que los alumnos van a trabajar fuera del aula, se recomienda que utilicen sus propios ordenadores portátiles, tanto en clase como en el trabajo en casa. Los [requisitos del ordenador](http://developer.android.com/sdk/index.html#Requirements) son:
+	* Sistema operativo moderno: Windows 7, Windows 8, Ubuntu 14 o MacOs
+	* En memoria RAM se necesitan mínimo 2 GB RAM, 4 GB RAM recomendado. 
+	* Espacio en el disco duro al momento de descargar el instalador y los Android SDK en su versión 5 son 4Gb
+	* La resolución mínima de la pantalla es de 1280 x 800. 
+
+	Gualinex no funciona bien con este entorno ni tampoco los ordenadores de la Junta son adecuados
+
+# Sesiones presenciales:
+
 Todas en horario de 16:30 a 20:30 horas
 28/03/2010 Lunes ( Lo he elegido por la celebración del día internacional de Arduino) se puede cambiar 
 29/03/2016
 5-6-12-13 de  Abril de 2016
-Debo de consultar el horario oficial de la delegación de Jaén, no creo que sean festivos estos días. Si lo fueran te lo comunicaré, en principio lo dejamos así.
-Horas totales de la actividad 24.
 
-Que te parece? Espero tu respuesta.
 
-Lo mismo que en la actividad anterior:
-Objetivos
-Contenido
-Justificación del porque debe de conocer el profesorado Arduino
+
 
 
 Introducción
@@ -77,13 +81,14 @@ Almacenamiento: Tipos de memoria, SD
 
 	En este módulo se desarrollaran 3 proyectos diferentes que tendrán en común el usar una placa Arduino como controlador.  Se parte de un diseño genérico que los alumnos han de implementar.
 
+# Ejemplos de proyectos
+
 Invernadero digital: Se medirań y registrarán variables meteorológicas: temperatura, humedad ambiental y humedad del suelo para decidir si se activan sistemas de riego o de ventilación. Los datos se guardan en una tarjeta SD de formato micro que puede ser leída desde un ordenador donde se podrán analizar. Se ha incluído una pequeño panel solar para hacerlo más ecológico.
 
-Globo sonda meteorológico: Se medirań y registrarán variables meteorológicas: temperatura, humedad ambiental y presión atmósférica junto a la posición por medio d un gps y el movimiento con un acelerómetro  lo que nos permite saber el movimiento que realiza en su vuelo. Los datos se guardan en una tarjeta SD de formato micro que puede ser leída desde un ordenador donde se podrán analizar con posterioridad. Se ha dotado al sistema de un pequeño panel solar para darle mayor autonomía.
-
-
+Estación meteorológico: Se medirań y registrarán variables meteorológicas: temperatura, humedad ambiental y presión atmósférica  Los datos se guardan en una tarjeta SD de formato micro que puede ser leída desde un ordenador donde se podrán analizar con posterioridad. Se ha dotado al sistema de un pequeño panel solar para darle mayor autonomía.
 
 Robot móvil: Un sencillo robot móvil, con 2 motores y ruedas, dotado de sensores de distancia podrá realizar un mapa de la zona en la que se encuentra, detectando y evitando obtáculos en su camino. Los datos del movimiento se almacenan en un tarjeta SD para su posterior análisis. Se incluye un panel solar para aumentar su autonomía.
+
 Bibliografía y material adicional
 1. Introducción a Arduino, Massimo Banzi, Anaya Multimedia, 2012. 9788441531772
 2. Guía de iniciación a Arduino http://arduino.cc/en/Guide/HomePage
@@ -93,11 +98,9 @@ Bibliografía y material adicional
 
 Introducción
 
-El objetivo del presente curso introducirnos en el uso de plataformas robótica de diferentes tipo.
+El objetivo del presente curso es la profundización en el conocimiento de la plataforma Arduino, con el fin de realizar diferentes proyectos con la misma.
 
-Para ello utilizaremos de forma totalmente práctica dos robots entendiendo su estructura y
 
-aprendiendo a realizar movimientos programados con ellos.
 
 Para ello utilizaremos modelos avanzados de arduino (Arduino Yun) que propociona una
 
