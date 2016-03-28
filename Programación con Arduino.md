@@ -1,16 +1,15 @@
-<!-- background: #184bc6-->
-<!-- color: #fff -->
-<!-- font: centurygothic -->
+# [Curso de Arduino Avanzado](https://www.juntadeandalucia.es/educacion/seneca/seneca/jsp/gestionactividades/DetActForPub.jsp?X_EDIACTFOR=152367)
 
-## [Proyectos Escolares con Robots](https://www.juntadeandalucia.es/educacion/seneca/seneca/jsp/gestionactividades/DetActForPub.jsp?X_EDIACTFOR=155369)
+Curso del CEP de Linares
 
-### Arduino
-## CEP Granada              Febrero 2016
+Destinado a profesores de primaria / secundaria / bachillerato
+
+Nivel avanzado
+
+Marzo y abril de 2016
 
 ![CC](https://licensebuttons.net/l/by-sa/3.0/88x31.png)
 ## José Antonio Vacas  @javacasm
-
-[Presentación](https://swipe.to/1586cc)
 
 ***
 
@@ -311,3 +310,9 @@ Ejemplo 2: Regular el nivel con un potenciometro.  Documentarlo.
 * Ejemplo: control de servo con potenciómetro
 
 * Ejemplo: librería [Time](http://playground.arduino.cc/Code/Time)
+
+## Otros cursos
+
+[Arduino con bitbloq](https://github.com/javacasm/ArduinoBasicoUbeda/blob/master/BitBloq.md)
+
+[Arduino con bitbloq y kits Bq](https://github.com/javacasm/ArduinoInicialOrcera/blob/master/BitBloq.md)
