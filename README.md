@@ -1,5 +1,40 @@
-# [Linares Arduino Avanzado](https://www.juntadeandalucia.es/educacion/seneca/seneca/jsp/gestionactividades/DetActForPub.jsp?X_EDIACTFOR=152367)
+# [Curso de Arduino Avanzado](https://www.juntadeandalucia.es/educacion/seneca/seneca/jsp/gestionactividades/DetActForPub.jsp?X_EDIACTFOR=152367)
 
+Curso del CEP de Linares
+
+Destinado a profesores de primaria / secundaria / bachillerato
+
+Nivel avanzado
+
+Marzo y abril de 2016
+
+![CC](https://licensebuttons.net/l/by-sa/3.0/88x31.png)
+## José Antonio Vacas  @javacasm
+
+* * *
+
+## [Proyectos](./proyectos/proyectos.md)
+
+## Foros
+
+## Temario
+
+Podemos estructurar en los siguientes apartados
+
+* Breve repaso del uso de Arduino
+* Introducción a la robótica
+  * Control de robots con arduino
+* Ejemplos prácticos de proyectos
+* Proyecto
+  * Definición del proyecto: su alcance y objetivos educativos.
+  * Arquitectura del sistema: componentes. Evaluación del costo.
+  * Búsqueda de ejemplos y librerías necesarias.
+  * Montaje
+  * Pruebas
+  * Documentación
+
+
+## Repaso
 
 1. Repaso de la programación con Arduino
   * IDE: Versiones, Instalación, Uso, Interioridades
