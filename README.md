@@ -2,24 +2,25 @@
 
 
 1. Repaso de la programación con Arduino
-* IDE: Versiones, Instalación, Uso, Interioridades
-* Programación: Lenguaje, Estructura de control. Librerías
-* Programación en C++
-* Creación de programas
-* IO Digitales: Entrada, Salida, Pulsos
-* IO Analógicas: Entrada, Salida, PWM
+  * IDE: Versiones, Instalación, Uso, Interioridades
+  * Programación: Lenguaje, Estructura de control. Librerías
+  * Programación en C++
+  * Creación de programas
+  * IO Digitales: Entrada, Salida, Pulsos
+  * IO Analógicas: Entrada, Salida, PWM
 
 2. Conceptos básicos de robótica:
-* Sensores y actuadores.
-* Conexión con sensores. Ejemplo: sensores atmosféricos y de distancia
-* Activación y control de motores: Ejemplo: ventiladores y otros motores.
+  * Sensores y actuadores.
+  * Conexión con sensores. Ejemplo: sensores atmosféricos y de distancia
+  * Activación y control de motores: Ejemplo: ventiladores y otros motores.
 
 3. Comunicaciones y Almacenamiento
-* Comunicaciones y protocolos: rs485, SPI, I2C
-* Almacenamiento: Tipos de memoria, SD
+  * Comunicaciones y protocolos: rs485, SPI, I2C
+  * Almacenamiento: Tipos de memoria, SD
 
 4. Proyectos
 En este módulo se desarrollaran 3 proyectos diferentes que tendrán en común el usar una placa Arduino como controlador. Se parte de un diseño genérico que los alumnos han de implementar.
+
 Ejemplos de proyectos
 
 * Invernadero digital:
