@@ -67,6 +67,7 @@ Se medirań y registrarán variables meteorológicas: temperatura, humedad ambie
 Un sencillo robot móvil, con 2 motores y ruedas, dotado de sensores de distancia podrá realizar un mapa de la zona en la que se encuentra, detectando y evitando obtáculos en su camino. Los datos del movimiento se almacenan en un tarjeta SD para su posterior análisis.Se incluye un panel solar para aumentar su autonomía.
 
 Bibliografía y material adicional
+
 1. Introducción a Arduino, Massimo Banzi, Anaya Multimedia, 2012. 9788441531772
 2. Guía de iniciación a Arduino http://arduino.cc/en/Guide/HomePage
 3. Guía de referencia de Arduino http://arduino.cc/es/Reference/HomePage
