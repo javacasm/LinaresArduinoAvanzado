@@ -54,6 +54,8 @@ Marzo y abril de 2016
 <!-- color: #fff -->
 <!-- font: centurygothic -->
 
+
+
 ## Introducción [Bitbloq](http://bitbloq.bq.com)
 
 Usamos bloques para definir los programas:
@@ -314,6 +316,8 @@ Ejemplo 2: Regular el nivel con un potenciometro.  Documentarlo.
 * Ejemplo: control de servo con potenciómetro
 
 * Ejemplo: librería [Time](http://playground.arduino.cc/Code/Time)
+
+## [Ejemplos](./ejemplos)
 
 ## Otros cursos
 
