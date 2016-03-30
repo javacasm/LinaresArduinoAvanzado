@@ -46,6 +46,10 @@ Marzo y abril de 2016
 
 ***
 
+## Placa Bt-ZUM
+
+![zum](./images/ZUM.png)
+
 <!-- background: #184bc6-->
 <!-- color: #fff -->
 <!-- font: centurygothic -->
