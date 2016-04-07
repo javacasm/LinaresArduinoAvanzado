@@ -28,6 +28,26 @@
 
 Se ha renunciado al uso de energía solar porque se requería de una batería y paneles de excesivo tamaño. (ver ejemplo)
 
+## Conexión bluetooth
+
+### Ejemplo de código C++ de envío de datos desde arduino
+
+	void setup() {
+	// Ojo!! Cada placa bluetooth puede usar distintas velocidades de conexión:
+	//  BT-Zum usa 19200
+	//  Las placas de bluetooth normales 9600
+	Serial.begin(19200); //Configurado para BT-Zum
+
+	}
+
+
+	void loop() {
+	  // Leemos los valores
+	  int iValorA0=analogRead(A0);
+	  int iValorA1=analogRead(A1);
+
+	  Serial.print();
+	}
 ## Programación
 
 Se ha proporcionado al menos un ejemplo para cada uno de los sensores, con lo que se puede crear el programa final uniendo estos ejemplos.
