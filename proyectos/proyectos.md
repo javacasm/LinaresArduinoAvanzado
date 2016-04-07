@@ -18,3 +18,5 @@ Estos son los proyectos que iremos realizando en el curso
 * * *
 
 [Elementos comunes](./comunes.md)
+
+Aquí encontraremos algunos de los elementos que usaremos en casi todos los proyectos.
