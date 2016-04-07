@@ -46,8 +46,17 @@ Se ha renunciado al uso de energía solar porque se requería de una batería y 
 	  int iValorA0=analogRead(A0);
 	  int iValorA1=analogRead(A1);
 
-	  Serial.print();
+	  Serial.print(iValorA0);
+		Serial.print(",");
+		Serial.println(iValorA1);
 	}
+
+### Control del robot desde un móvil o tablets vía bluetooth
+
+Podéis descargar el[ ejemplo dese bitbloq](http://bitbloq.bq.com/#/bloqsproject/546e2764e4b0bde006d0857e:a9e2f76e-2ef6-4467-b28f-1a570b0fbb1c)
+
+![imag](./imagenes/ControlServoDesdeBluetooth.png)
+
 ## Programación
 
 Se ha proporcionado al menos un ejemplo para cada uno de los sensores, con lo que se puede crear el programa final uniendo estos ejemplos.
