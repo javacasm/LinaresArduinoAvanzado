@@ -10,14 +10,14 @@
 * Las tarjetas más antiguas suelen funcionar mejor porque utilizan menores velocidades
 * Dado que es posible que se produzcan errores de acceso o de escritura, nuestro programa siempre contemplará esa posibilidad, realizando el resto de tareas en caso de error. (ver el ejemplo Datalogger de la librería SD para el tratamiento de errores). En general se tratará así:
 
-	if(ErrorDeAcceso)
-	{
-		Serial.println("Error de acceso a SD");
-	}
-	else
-	{
-		// Escritura a SD
-	}
+		if(ErrorDeAcceso)
+		{
+			Serial.println("Error de acceso a SD");
+		}
+		else
+		{
+			// Escritura a SD
+		}
 
 ### Libreria SD
 
@@ -32,7 +32,8 @@ Se ha renunciado al uso de energía solar porque se requería de una batería y 
 
 ### Ejemplo de código C++ de envío de datos desde arduino
 
-  // Ejemplo de código C++ de envío de datos desde arduino
+
+	// Ejemplo de código C++ de envío de datos desde arduino
 	void setup() {
 	// Ojo!! Cada placa bluetooth puede usar distintas velocidades de conexión:
 	//  BT-Zum usa 19200
