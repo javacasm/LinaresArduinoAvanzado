@@ -17,4 +17,4 @@ Estos son los proyectos que iremos realizando en el curso
 
 * * *
 
-[Elementos comunes](https://github.com/javacasm/Robotica-Educativa-Arduino-y-3D/blob/master/proyectos/comunes.md)
+[Elementos comunes](./comunes.md)
