@@ -32,6 +32,7 @@ Se ha renunciado al uso de energía solar porque se requería de una batería y 
 
 ### Ejemplo de código C++ de envío de datos desde arduino
 
+  // Ejemplo de código C++ de envío de datos desde arduino
 	void setup() {
 	// Ojo!! Cada placa bluetooth puede usar distintas velocidades de conexión:
 	//  BT-Zum usa 19200
