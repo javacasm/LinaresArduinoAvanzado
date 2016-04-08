@@ -61,6 +61,55 @@ Podéis descargar el[ ejemplo dese bitbloq](http://bitbloq.bq.com/#/bloqsproject
 
 ## Internet con arduino
 
+La forma más sencilla de conectar Arduino a internet es usar un [shield ethernet](http://blog.elcacharreo.com/2013/10/15/arduino-faq-diferencias-entre-diferentes-shield-ethernet/). En [este artículo](http://www.instructables.com/id/The-Super-Simple-Arduino-Weather-Web-Server/) se explica cómo montar un servidor sencillo.
+
+El resultado será un servidor muy básico
+![servidor web arduino](http://cdn.instructables.com/FDG/KFSP/HREI6PXF/FDGKFSPHREI6PXF.MEDIUM.jpg)
+
+El código esencialmente lo que hace es recoger los datos de los sensores y generar un código HTML que muestre estos datos. Algo así:
+
+	// Configuración del shield con las IPs correspondientes
+
+	while (client.connected()) {
+		if (client.available()) {
+			char c = client.read();
+			Serial.write(c);
+			// if you've gotten to the end of the line (received a newline
+			// character) and the line is blank, the http request has ended,
+			// so you can send a reply
+			if (c == '\n' && currentLineIsBlank) {
+				// send a standard http response header
+				client.println("HTTP/1.1 200 OK");
+				client.println("Content-Type: text/html");
+				client.println("Connection: close");  // the connection will be closed after completion of the response
+				client.println("Refresh: 5");  // refresh the page automatically every 5 sec
+				client.println();
+				client.println("<!DOCTYPE HTML>");
+				client.println("<html>");
+				// output the value of each sensor
+
+					client.print("Temperature ");
+					client.println(tempF);
+					client.print("&deg;");
+					client.print("F");
+					client.println("<br />");
+					client.print("Humidity ");
+					client.println(rH);
+					client.print(" %");
+					client.println("<br />");
+					client.print("Pressure ");
+					client.println(inHg);
+					client.print(" in. Hg");
+					client.println("<br />");
+
+				client.println("</html>");
+				break;
+			}
+			if (c == '\n') {
+				// you're starting a new line
+				currentLineIsBlank = true;
+			}
+
 ### Wifi en Arduino
 
 A día de hoy el usar shield Wifi con Arduino es algo que resulta algo complicado, debido a la dificultad de configurar las redes desde estas placas
