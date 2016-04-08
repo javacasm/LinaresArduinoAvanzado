@@ -29,10 +29,28 @@ Robot móvil: Un sencillo robot móvil, con 2 motores y ruedas, dotado de sensor
 
 ## Modelo
 
+### Robots con motores DC
+
 Me gustaría basarme en [este modelo](http://www.thingiverse.com/thing:200582) pero añadiendo la posibilidad de mover el [sensor de ultrasonidos](http://www.thingiverse.com/thing:787202) con un servo
 Habría que añadir un pequeño soporte para el panel solar
 
-[alternativas](http://www.thingiverse.com/javacasm/collections/robot-movil)
+### Robots que usan servos de rotación continua
+
+[Robot Evolution](http://www.thingiverse.com/thing:750928/#files) ([Montaje](http://diwo.bq.com/montaje-del-printbot-evolution/))
+
+![evo](http://www.tecselec.com/521-thickbox_default/bq-kit-printbot-evolution.jpg)
+
+[Versión simplificada del Evolution](https://github.com/javacasm/evoPrintBot)
+![evoPrintBot](https://github.com/javacasm/evoPrintBot/raw/master/imagenes/evoPrintBot.png)
+
+### Robots con motores paso a paso
+
+[Escornabot](https://escornabot.com/web/es/home/4) Un estupendo robot muy utilizado en docencia y con muchísima documentación.
+![escornabot](https://escornabot.com/web/sites/default/files/node_attachs/brivoipcb.jpg)
+
+### [Otras alternativas](http://www.thingiverse.com/javacasm/collections/robot-movil)
+
+
 
 ## Ejemplos:
 
