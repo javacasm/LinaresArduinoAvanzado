@@ -59,6 +59,20 @@ Podéis descargar el[ ejemplo dese bitbloq](http://bitbloq.bq.com/#/bloqsproject
 
 ![imag](./imagenes/ControlServoDesdeBluetooth.png)
 
+## Internet con arduino
+
+### Wifi en Arduino
+
+A día de hoy el usar shield Wifi con Arduino es algo que resulta algo complicado, debido a la dificultad de configurar las redes desde estas placas
+
+Están apareciendo placas que nos facilitan mucho esta tarea como el cada vez más conocido ESP8266.
+
+En este [enlace](http://www.prometec.net/arduino-wifi/)
+o en [este 2](http://www.leantec.es/blog/26_Como-conectar-Arduino-a-una-red-WIFi-con-el-m.html) podemos ver cómo utilizar el ESP8266 para conectarnos al wifi.
+
+También podemos hacer que nuestro arduino se comporte como [un servidor web según hacen en este ejemplo sencillo](http://allaboutee.com/2014/12/30/esp8266-and-arduino-webserver/) o podemo [envar datos de temperatura a sitio web](http://www.instructables.com/id/ESP8266-Wifi-Temperature-Logger/)
+
+
 ## Programación
 
 Se ha proporcionado al menos un ejemplo para cada uno de los sensores, con lo que se puede crear el programa final uniendo estos ejemplos.
