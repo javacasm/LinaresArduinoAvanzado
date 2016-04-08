@@ -1,3 +1,18 @@
+## Trabajando con librerías
+
+Arduino guarda las librerías en 2 lugares:
+* En el directorio de instalacion/Libraries donde vienen instaladas por defecto
+* En el directorio de usuario Documentos/Arduino/Libraries
+
+Es mejor usar el directorio de usuario ya que en caso de reinstalación del entorno se mantendrán las librerías.
+
+En las versiones recientes de Arduino se ha incluído un Gestor de Librerías:
+
+![gesto](http://codevista.net/wp-content/uploads/2015/08/Library-Manager.png)
+
+Accederemos a él desde el menú "Programa" -> "Añadir Librería" -> "Gestionar Librerías". Desde el mismo podremos buscar librerías con determinada característica, actualizarlas, e incluso instalar una versión de ellas determinada.
+
+
 ## Escritura en tarjeta
 
 * Aprender a escribir ficheros
