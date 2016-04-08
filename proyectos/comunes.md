@@ -121,6 +121,19 @@ o en [este 2](http://www.leantec.es/blog/26_Como-conectar-Arduino-a-una-red-WIFi
 
 También podemos hacer que nuestro arduino se comporte como [un servidor web según hacen en este ejemplo sencillo](http://allaboutee.com/2014/12/30/esp8266-and-arduino-webserver/) o podemo [envar datos de temperatura a sitio web](http://www.instructables.com/id/ESP8266-Wifi-Temperature-Logger/)
 
+## Subir datos a una página web
+
+Existen muchas páginas web donde se nos permite subir datos meteorológicos, de consumo eléctrico, etc y que podemos utilizar para almacenarlos y graficarlos.
+
+En este tutorial se muestra [cómo hacerlo](https://learn.sparkfun.com/tutorials/internet-datalogging-with-arduino-and-xbee-wifi). Generalmente se trata de hacer una llamada a determinada URL con los datos y un código ID (lo que se conoce técnicamente como un llamada REST).
+
+## Enviar datos al PC
+
+Algo muy frecuente es recoger los datos de arduino desde el PC. Normalmente se hace enviando los datos vía Serial y utilizando una aplicación en el PC que los lee y los guarda o grafica.
+
+En [este proyecto](http://www.instructables.com/id/Wireless-outdoor-Arduino-weather-station-with-PC-l/) podemos ver cómo mostrarlos.
+
+En las últimas versiones de arduino (a partir de la 1.6.6) se incluye una herramienta sencilla que nos permite hacer gráficos sencillos a partir de los datos enviados por el puerto seriel. Se llama Serial Plotter y podemos  acceder a ella desde el menú Herramientas. Un [pequeño tutorial](http://randomnerdtutorials.com/arduino-serial-plotter-new-tool/) de su uso.
 
 ## Programación
 
